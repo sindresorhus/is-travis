@@ -3,6 +3,8 @@ var test = require('ava');
 var requireUncached = require('require-uncached');
 
 test('not travis', function (t) {
+	delete process.env.TRAVIS;
+	delete process.env.CI;
 	t.assert(!requireUncached('./'));
 });
 
