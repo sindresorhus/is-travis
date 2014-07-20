@@ -1,0 +1,33 @@
+{
+  "name": "is-travis",
+  "version": "0.0.0",
+  "description": "Check if your code is running on Travis",
+  "license": "MIT",
+  "repository": "sindresorhus/is-travis",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "travis",
+    "is",
+    "check",
+    "detect",
+    "env",
+    "environment"
+  ],
+  "devDependencies": {
+    "ava": "0.0.3",
+    "require-uncached": "^1.0.2"
+  }
+}
