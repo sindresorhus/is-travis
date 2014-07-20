@@ -15,7 +15,7 @@ $ npm install --save is-travis
 ```js
 var isTravis = require('is-travis');
 
-// on you local computer
+// on your local computer
 console.log(isTravis);
 //=> false
 
