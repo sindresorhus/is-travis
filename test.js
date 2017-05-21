@@ -1,15 +1,14 @@
-'use strict';
-var test = require('ava');
-var requireUncached = require('require-uncached');
+import test from 'ava';
+import importFresh from 'import-fresh';
 
-test('not travis', function (t) {
+test('not travis', t => {
 	delete process.env.TRAVIS;
 	delete process.env.CI;
-	t.assert(!requireUncached('./'));
+	t.false(importFresh('.'));
 });
 
-test('travis', function (t) {
+test('travis', t => {
 	process.env.TRAVIS = 1;
 	process.env.CI = 1;
-	t.assert(requireUncached('./'));
+	t.true(importFresh('.'));
 });

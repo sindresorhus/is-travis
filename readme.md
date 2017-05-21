@@ -5,7 +5,7 @@
 
 ## Install
 
-```sh
+```
 $ npm install --save is-travis
 ```
 
@@ -13,13 +13,13 @@ $ npm install --save is-travis
 ## Usage
 
 ```js
-var isTravis = require('is-travis');
+const isTravis = require('is-travis');
 
-// on your local computer
+// On your local computer
 console.log(isTravis);
 //=> false
 
-// on Travis
+// On Travis
 console.log(isTravis);
 //=> true
 ```
@@ -27,4 +27,4 @@ console.log(isTravis);
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
