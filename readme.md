@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save is-travis
+$ npm install is-travis
 ```
 
 
