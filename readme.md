@@ -1,4 +1,4 @@
-# is-travis [![Build Status](https://travis-ci.org/sindresorhus/is-travis.svg?branch=master)](https://travis-ci.org/sindresorhus/is-travis)
+# is-travis
 
 > Check if your code is running on [Travis](https://travis-ci.org)
 
